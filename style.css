@@ -1,0 +1,65 @@
+:root {
+    --text-blue: hsl(238, 29%, 16%);
+    --text-red: hsl(14, 88%, 65%);
+    --text-dkblue: hsl(240, 6%, 50%);
+    --text-vdkblue: hsl(237, 12%, 33%);
+    --gradient-violet: hsl(273, 75%, 66%);
+    --gradient-blue: hsl(240, 73%, 65%);
+    --divider-blue: hsl(240, 5%, 91%);
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(var(--gradient-violet),var(--gradient-blue) );
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    padding: 3rem;
+}
+
+.card {
+        background: white;
+        border-radius: 2rem;
+        max-width: 56rem;
+        margin: 6rem;
+}
+
+.card-image{
+   
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+    max-width: 25rem;
+}
+
+@media (min-width: 56em) {
+    .card {
+        display: flex;
+        margin: 6rem auto;
+    }
+
+    .card-image, .card-text {
+        flex: 1;
+    }
+
+}
+
+
+.card-text {
+
+
+}
