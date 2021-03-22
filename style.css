@@ -136,6 +136,7 @@ h1 {
 
 @media (min-width: 56em) {
     .card {
+        padding-top: 2rem;
         position: relative;
         display: flex;
         margin: 6rem auto;
