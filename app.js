@@ -17,12 +17,14 @@ function myFunction(e) {
 
       
 
-      if (y.style.maxHeight) {
+     if (y.style.maxHeight) {
         y.style.maxHeight = null;
-        e.querySelector('img').style.transform = "scale(2)";
+        e.querySelector('img').style.transform = "scale(1.5)";
+        e.style.fontWeight = "400";
       } else {
         y.style.maxHeight = y.scrollHeight + "px";
-        e.querySelector('img').style.transform = "scaleX(-2) scaleY(-2)";
+        e.querySelector('img').style.transform = "scaleX(-1.5) scaleY(-1.5)";
+        e.style.fontWeight = "700";
       }
     
 
