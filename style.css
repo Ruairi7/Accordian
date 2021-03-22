@@ -31,6 +31,7 @@ body {
     color: var(--text-blue);
 }
 .card {
+    display: block;
         background: white;
         border-radius: 2rem;
         max-width: 56rem;
