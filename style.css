@@ -154,8 +154,10 @@ body {
     }
 
     .card__box {
-        width: 20%;
-        height: auto;
+        width: 15%;
+        height: 25%;
+        justify-content: center;
+        top: 25%;
     display: block;
     position: absolute;
     left: 0;
