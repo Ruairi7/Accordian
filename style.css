@@ -41,7 +41,7 @@ body {
         background-repeat: no-repeat;
         background-position: top center;
         color: var(--text-blue);
-        height: auto;
+        height: fit-content;
 }
 
 .card__image img {
@@ -141,7 +141,7 @@ body {
         background-size: 25rem;
         background-repeat: no-repeat;
         background-position: -10% center;
-        height: auto;
+        height: fit-content;
 
     }
 
