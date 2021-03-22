@@ -27,17 +27,17 @@ body {
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 0.75rem;
-    padding: 3rem;
+    padding: 1.5rem;
     color: var(--text-blue);
 }
 .card {
     display: block;
         background: white;
         border-radius: 2rem;
-        max-width: 56rem;
-        margin:  6rem auto;
+        max-width: 60rem;
+        margin:  6rem 0 6rem 0;
         min-height: 25rem;
-        background-image: url('images/bg-pattern-mobile.svg');
+        background-image: url('/images/bg-pattern-mobile.svg');
         background-repeat: no-repeat;
         background-position: top center;
         color: var(--text-blue);
@@ -46,7 +46,7 @@ body {
 
 .card__image img {
     display: block;
-    src: url('images/illustration-woman-online-mobile.svg');
+    src: url('/images/illustration-woman-online-mobile.svg');
     width: 100%;
     height: auto;
     max-width: 15rem;
@@ -56,7 +56,7 @@ body {
 }
 
 .card__text {
-    padding: 3rem;
+    padding-left: 0.5rem;
     transform: translateY(-20%);
     color: var(--text-blue);
     font-weight: 400;
@@ -75,7 +75,7 @@ body {
     text-decoration: none;
     border: none;
     background: transparent;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: 'Kumbh', sans-serif;
     padding-right: 1.5em;
     
@@ -91,18 +91,17 @@ body {
     transform: scale(2);
 }
 
-.accordian__question::before button{
+.accordian__question::before {
     font-weight: 900;
 }
 
 
 
-.accordian__question::after button{
+.accordian__question::after {
     display: block;
     width: 1.2rem;
     height: 0.5rem;
     content: '';
-    font-weight: bolder;
     border: none;
 }
 
@@ -132,12 +131,16 @@ body {
     border-bottom: 1px solid var(--divider-blue);
 }
 
+h1 {
+    padding-left: 0.5rem;
+}
+
 @media (min-width: 56em) {
     .card {
-        display: flex;
         position: relative;
+        display: flex;
         margin: 6rem auto;
-        background-image: url(images/bg-pattern-desktop.svg);
+        background-image: url(/images/bg-pattern-desktop.svg);
         background-size: 25rem;
         background-repeat: no-repeat;
         background-position: -10% center;
@@ -155,12 +158,14 @@ body {
         align-items: center;
         
     }
+    
 
     .card__text {
+        width: 100%;
         transform: translateY(0%);
         font-weight: 400;
     }
-    
+
     .card__image {
         overflow: hidden;
         direction: rtl;
@@ -168,8 +173,8 @@ body {
 
     .card__image img {
         transform: translateX(-2rem);
-        overflow: hidden;
         max-width: 25rem;
+        
     }
 
     .card__box {
