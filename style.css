@@ -44,7 +44,7 @@ body {
 
 .card__image img {
     display: block;
-    src: url('/images/illustration-woman-online-mobile.svg');
+    src: url('images/illustration-woman-online-mobile.svg');
     width: 100%;
     height: auto;
     max-width: 15rem;
@@ -122,7 +122,7 @@ body {
         position: relative;
         display: flex;
         margin: 6rem auto;
-        background-image: url(/images/bg-pattern-desktop.svg);
+        background-image: url(images/bg-pattern-desktop.svg);
         background-size: 25rem;
         background-repeat: no-repeat;
         background-position: -10% center;
