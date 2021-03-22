@@ -160,6 +160,11 @@ body {
         transform: translateY(0%);
         font-weight: 400;
     }
+    
+    .card__image {
+        overflow: hidden;
+        direction: rtl;
+    }
 
     .card__image img {
         transform: translateX(-2rem);
