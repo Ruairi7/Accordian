@@ -41,6 +41,7 @@ body {
         background-repeat: no-repeat;
         background-position: top center;
         color: var(--text-blue);
+    height: auto;
 }
 
 .card__image img {
@@ -62,6 +63,7 @@ body {
 }
 
 .card__box {
+    justify-content: center;
     display: none;    
 }
 
