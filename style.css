@@ -134,8 +134,8 @@ body {
 
 @media (min-width: 56em) {
     .card {
-        position: relative;
         display: flex;
+        position: relative;
         margin: 6rem auto;
         background-image: url(images/bg-pattern-desktop.svg);
         background-size: 25rem;
